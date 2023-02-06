@@ -1,0 +1,20 @@
+1 - Création du dossier dans lequel sera exécuté Node
+2 - Démarrer le terminal ou Powershell à partir de ce dossier et faire un "npm init"
+3 -   - choisir le nom du package
+	- valider la version
+	- idem pour la description
+	- définir un point d'entrée (par défaut on va le créer sous app.js, mais en réalité il peut porter n'importer quel nom)
+	- valider la test command
+	- valider le git repository
+	- keywords
+	- author
+	- License
+et valider tout
+4 - Un résumé des params choisis apparaît
+5 - Installer le framework express en tapant la commande: npm install express fs (non obligatoire mais c'est le framework le plus utilisé
+6 - Taper nmp install nodemon --save-dev(on installe nodemon en tant que dépendance du package json(demon est un utilitaire qui surveille
+les modifictions de fichier et rédemarre automatiquement le serveur chaque fois), c'est pareil, ça n'est pas obligatoire,
+mais ça permet de ne pas avoir à redémarrer manuellement le serveur chaque fois.
+7 - en cas d'installation de nodemon, insérer "start" : "nodemon app.js dans les package json dans les scripts après les tests,
+ne pas oublier la virgule qui séparer le test de ce fichier.
+8 - lancer ensuite le fichier via la commande : npm start
