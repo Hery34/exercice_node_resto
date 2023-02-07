@@ -1,22 +1,22 @@
 {
     "Entrées" :{
-        "1":[{"nom":"croquettes de poisson chat", "prix":"12€"}],
-        "2":[{"nom":"filets de pimp", "prix":"8€"}],
-        "3":[{"nom":"soufflé braisé", "prix":"3€"}]
+        "1":[{"nom":"croquettes de poisson chat", "prix":12, "devise":"€"}],
+        "2":[{"nom":"filets de pimp", "prix":"8", "devise":"€" }],
+        "3":[{"nom":"soufflé braisé", "prix":"3", "devise":"€"}]
     },
     "plats" :{
-        "4":[{"nom":"salade décomposée", "prix":"17€"}],
-        "5":[{"nom":"agneau déconfiné", "prix":"23€"}],
-        "6":[{"nom":"entrecote dégraissée", "prix":"27€"}],
-        "7":[{"nom":"pelardon désseché", "prix":"5€"}]
+        "4":[{"nom":"salade décomposée", "prix":"17", "devise":"€"}],
+        "5":[{"nom":"agneau déconfiné", "prix":"23", "devise":"€"}],
+        "6":[{"nom":"entrecote dégraissée", "prix":"27", "devise":"€"}],
+        "7":[{"nom":"pelardon désseché", "prix":"5", "devise":"€"}]
     },
     "desserts" :{
-        "8":[{"nom":"Copeaux de safran vanillés", "prix":"9€"}],
-        "9":[{"nom":"café mouillette", "prix":"1€"}]
+        "8":[{"nom":"Copeaux de safran vanillés", "prix":"9", "devise":"€"}],
+        "9":[{"nom":"café mouillette", "prix":"1", "devise":"€"}]
     },
     "Boissons" :{
-        "10":[{"nom":"Coca cola aux glaçons", "prix":"3€"}],
-        "11":[{"nom":"Smoothie champignons/radis", "prix":"8€"}]
+        "10":[{"nom":"Coca cola aux glaçons", "prix":"3", "devise":"€"}],
+        "11":[{"nom":"Smoothie champignons/radis", "prix":"8", "devise":"€"}]
     }
 
     
